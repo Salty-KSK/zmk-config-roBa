@@ -78,10 +78,10 @@
 
         FUCNTION {
             bindings = <
-&kp ESCAPE  &kp KP_PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                                &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp BACKSPACE
-&kp TAB     &kp KP_MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans         &kp HASH       &kp AT_SIGN           &kp PRCNT              &kp EXCL           &kp QMARK         &kp ENTER
-&trans      &kp KP_ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA      &kp EQUAL      &kp F2                &kp F7                 &kp F8             &kp F9            &kp F10
-&trans      &kp KP_SLASH     &kp N0        &kp PERIOD    &trans        &trans         &kp BACKSPACE  &kp DELETE                                                                        &trans
+&kp ESCAPE  &kp KP_PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                                &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp TAB     &kp KP_MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans         &kp HASH       &kp AT_SIGN           &kp PRCNT              &kp EXCL           &kp QMARK             &kp ENTER
+&trans      &kp KP_ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA      &kp EQUAL      &kp F2                &kp F7                 &kp F8             &kp F9                &kp F10
+&trans      &kp KP_SLASH     &kp N0        &kp PERIOD    &trans        &trans         &kp BACKSPACE  &kp DELETE                                                                            &trans
             >;
         };
 
