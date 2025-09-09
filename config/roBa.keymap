@@ -68,9 +68,9 @@
         default_layer {
             bindings = <
 &kp Q           &kp W             &kp E         &kp R     &kp T                                               &kp Y        &kp U  &kp I      &kp O    &lt 5 P
-&kp A           &kp S             &kp D         &kp F     &kp G        &mkp MB3                &kp TAB        &kp H        &kp J  &kp K      &kp L    &kp ENTER
+&kp A           &kp S             &kp D         &kp F     &kp G        &kp LC(V)               &kp TAB        &kp H        &kp J  &kp K      &kp L    &kp ENTER
 &kp Z           &kp X             &kp C         &kp V     &kp B        &kp LC(C)               &kp LC(V)      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &mkp MB1  &lt 1 SPACE  &lt 5 LANG_HANGEUL      &kp BACKSPACE  &lt 3 MINUS                             &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &mkp MB1  &lt 1 SPACE  &lt 5 LANG_HANGEUL      &kp BACKSPACE  &lt 3 MINUS                             &lt 6 DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -78,10 +78,10 @@
 
         FUCNTION {
             bindings = <
-&kp ESCAPE  &kp KP_PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                                       &kp LS(N8)  &kp LS(N9)  &kp LEFT_BRACKET  &kp LS(N7)  &kp LS(NUMBER_2)
-&kp TAB     &kp KP_MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp UNDERSCORE      &kp HASH         &kp UNDER   &kp PRCNT   &kp EXCL          &kp QMARK   &kp ENTER
-&trans      &kp KP_ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA           &kp RS(INT_YEN)  &kp F2      &kp F7      &kp F8            &kp F9      &kp F10
-&trans      &kp KP_SLASH     &kp N0        &kp PERIOD    &trans        &trans              &kp BACKSPACE    &kp DELETE                                            &trans
+&kp ESCAPE  &kp KP_PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                                     &kp LS(N8)  &kp LS(N9)  &kp LEFT_BRACKET  &kp LS(N7)  &kp LS(NUMBER_2)
+&kp TAB     &kp KP_MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp UNDERSCORE      &kp HOME       &kp UNDER   &kp PRCNT   &kp EXCL          &kp QMARK   &kp ENTER
+&trans      &kp KP_ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA           &kp END        &kp F2      &kp F7      &kp F8            &kp F9      &kp F10
+&trans      &kp KP_SLASH     &kp N0        &kp PERIOD    &trans        &trans              &kp BACKSPACE  &kp DELETE                                            &kp DELETE
             >;
         };
 
@@ -116,10 +116,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
