@@ -81,7 +81,7 @@
 &kp ESCAPE  &kp KP_PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                                     &kp LS(N8)  &kp LS(N9)  &kp LEFT_BRACKET  &kp LS(N7)  &kp LS(NUMBER_2)
 &kp TAB     &kp KP_MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp UNDERSCORE      &kp HOME       &kp UNDER   &kp PRCNT   &kp EXCL          &kp QMARK   &kp ENTER
 &trans      &kp KP_ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA           &kp END        &kp F2      &kp F7      &kp F8            &kp F9      &kp F10
-&trans      &kp KP_SLASH     &kp N0        &kp PERIOD    &trans        &trans              &kp BACKSPACE  &kp DELETE                                            &kp DELETE
+&kp GRAVE   &kp KP_SLASH     &kp N0        &kp PERIOD    &trans        &trans              &kp BACKSPACE  &kp DELETE                                            &kp DELETE
             >;
         };
 
