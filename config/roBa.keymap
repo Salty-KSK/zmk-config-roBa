@@ -81,7 +81,7 @@
 &kp ESCAPE  &kp KP_PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                                     &kp LS(N8)  &kp LS(N9)  &kp LEFT_BRACKET  &kp LS(N7)  &kp LS(NUMBER_2)
 &kp TAB     &kp KP_MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp UNDERSCORE      &kp HOME       &kp UNDER   &kp PRCNT   &kp EXCL          &kp QMARK   &kp ENTER
 &trans      &kp KP_ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA           &kp END        &kp F2      &kp F7      &kp F8            &kp F9      &kp F10
-&kp GRAVE   &kp KP_SLASH     &kp N0        &kp PERIOD    &trans        &trans              &kp BACKSPACE  &kp DELETE                                            &kp DELETE
+&trans      &kp KP_SLASH     &kp N0        &kp PERIOD    &trans        &trans              &kp BACKSPACE  &kp DELETE                                            &kp DELETE
             >;
         };
 
@@ -96,10 +96,10 @@
 
         ARROW {
             bindings = <
-&kp ESC             &trans            &trans               &trans          &kp UP_ARROW                                 &trans  &trans  &trans  &trans  &trans
-&kp TAB             &trans            &trans               &kp LEFT_ARROW  &trans          &kp RIGHT_ARROW      &trans  &trans  &trans  &trans  &trans  &kp ENTER
-&trans              &kp LC(X)         &kp LC(C)            &kp LC(V)       &kp DOWN_ARROW  &kp LS(LG(S))        &trans  &trans  &trans  &trans  &trans  &trans
-&kp LA(LEFT_ARROW)  &kp LA(UP_ARROW)  &kp LA(RIGHT_ARROW)  &mkp MB2        &trans          &kp LANG_HANJA       &trans  &trans                          &trans
+&kp ESC  &trans     &trans     &trans          &kp UP_ARROW                                             &kp LA(UP_ARROW)    &trans               &trans  &trans  &trans
+&kp TAB  &trans     &trans     &kp LEFT_ARROW  &trans          &kp RIGHT_ARROW      &kp LA(LEFT_ARROW)  &trans              &kp LA(RIGHT_ARROW)  &trans  &trans  &kp ENTER
+&trans   &kp LC(X)  &kp LC(C)  &kp LC(V)       &kp DOWN_ARROW  &kp LS(LG(S))        &trans              &kp LA(DOWN_ARROW)  &trans               &trans  &trans  &trans
+&trans   &trans     &trans     &mkp MB2        &trans          &trans               &trans              &trans                                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
